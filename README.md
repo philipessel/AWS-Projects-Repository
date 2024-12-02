@@ -22,7 +22,7 @@ The project will be done using AWS Management Console.
 Three-Tier Architecture with Aurora and EC2.
 
 ## Project Link: 
-https://github.com/philipessel/three-tier-architectural-designs 
+https://github.com/philipessel/Deploying-Three-Tier-Architecture 
 
 ## Project Overview:
 In this project, I will build a three-tier architecture in AWS. This consist of the presentation layer, the application layer, and the database layer. The architecture will be designed to be scalable, highly available, and support fault tolerance.
