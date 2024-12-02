@@ -61,7 +61,7 @@ When an instance is terminated, EventBridge will detect the instance state and t
 Cost Estimation and Analysis for a Three-tier Architecture.
 
 ## Project Link: 
-https://github.com/philipessel/Three-Tier-Architecture-Cost-Estimation 
+https://github.com/philipessel/Three-Tier-Architecture-Cost-Estimate  
 
 ## Project Overview:
 This project outlines the approach to calculating the estimated costs for each component of a three-tier AWS architecture. Using the AWS Pricing Calculator, I will estimate the cost of deploying the architecture over a one-month period.
