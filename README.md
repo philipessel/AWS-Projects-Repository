@@ -79,7 +79,8 @@ The project will be done using AWS Management Console.
 Using AWS Translate to Translate from English to Spanish.
 
 ## Project Link: 
-https://github.com/philipessel/aws-translation-project 
+
+https://github.com/philipessel/aws-translation-project-.git
 
 ## Project Overview:
 .....
