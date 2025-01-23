@@ -2,7 +2,7 @@
 This repository contains various AWS projects I've worked on. Each project has its own folder with all relevant resources and documentation. 
 Below are the links to the projects.
 
-# = = = = = = = = = = = = = = = = = = = = = = = = = = = = =  
+# = = = = = = = = = = = = = = = = = =   
 
 # PROJECT 1
 ## Project Name: 
@@ -25,7 +25,7 @@ A managed relational database, such as Amazon Aurora, will be used to store and 
 
 This project will demonstrate how the three-tier work together to create a reliable, scalable and fault-tolerant three-tier application.  Security measures such as VPC, security groups, and IAM will be implemented to control access to resources.
 
-# = = = = = = = = = = = = = = = = = = = = = = = = = = = = =  
+# = = = = = = = = = = = = = = = = = =  
 
 # PROJECT 2
 ## Project Name: 
@@ -41,7 +41,7 @@ The architecture will operate as follows:
 
 When an instance is terminated, EventBridge will detect the instance state and trigger Lambda function to send SNS notification to admin. A second EventBridge will be scheduled to trigger another Lambda function to query EBS volumes and snapshots on weekly basis. Anytime Lambda finds an EBS volume and Snapshot that have not been attached to instance for more than 7 days (stale resources), it will delete them. This same function will then send notification to administrator about the deletion of these stale resources and then create logs of them in CloudWatch logs. AWS Cost Explorer and AWS Budgets will at the same time be used to monitor and track cost savings over time.
 
-# = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+# = = = = = = = = = = = = = = = = = = 
 
 # PROJECT 3
 ## Project Name: 
@@ -59,7 +59,7 @@ Additionally, the project will identify opportunities for cost optimization and 
 It is important to note that this project will focus solely on cost estimation and optimization as the actual deployment of these resources had been addressed in a separate project.
 
 
-# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+# = = = = = = = = = = = = = = = = = = 
 
 # PROJECT 4
 ## Project Name: 
@@ -72,4 +72,4 @@ https://github.com/philipessel/static-website-hosting-in-s3
 In this project, I set out to host a static website using AWS services such as S3, CloudFront, and Route 53. The website will be securely delivered via CloudFront, a content delivery network (CDN), and accessed using a custom domain managed in Route 53. AWS Certificate Manager (ACM) will handle SSL certificates, ensuring the website is served over HTTPS for secure communication.
 The project will be done using AWS Management Console. 
 
-# = = = = = = = = = = = = = = = = = = = = = = = = = = = = =  
+# = = = = = = = = = = = = = = = = = =  
