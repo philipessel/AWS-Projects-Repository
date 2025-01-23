@@ -73,3 +73,16 @@ In this project, I set out to host a static website using AWS services such as S
 The project will be done using AWS Management Console. 
 
 # = = = = = = = = = = = = = = = = = =  
+
+# PROJECT 5
+## Project Name: 
+Using AWS Translate to Translate from English to Spanish.
+
+## Project Link: 
+https://github.com/philipessel/aws-translation-project 
+
+## Project Overview:
+.....
+
+
+# = = = = = = = = = = = = = = = = = = 
